@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Math | Xingcheng's Blog]]></title>
   <link href="http://huang206.github.io/blog/categories/math/atom.xml" rel="self"/>
   <link href="http://huang206.github.io/"/>
-  <updated>2015-09-25T11:13:19-07:00</updated>
+  <updated>2015-09-25T11:27:34-07:00</updated>
   <id>http://huang206.github.io/</id>
   <author>
     <name><![CDATA[Xingcheng Huang]]></name>
@@ -18,12 +18,15 @@
     <link href="http://huang206.github.io/blog/2015/09/25/how-to-set-up-a-mathematical-reasoning-system/"/>
     <updated>2015-09-25T10:15:40-07:00</updated>
     <id>http://huang206.github.io/blog/2015/09/25/how-to-set-up-a-mathematical-reasoning-system</id>
-    <content type="html"><![CDATA[<blockquote><p>Explain everything in your own world before you formulate them with logics.</p></blockquote>
+    <content type="html"><![CDATA[<blockquote><p>Explain everything in your own words before you formulate them with logics.</p></blockquote>
 
 <h2>1.Introduction</h2>
 
 <p>Human beings could only understand precise and unambiguous things. Nature languages like English have ambiguity, which could be eliminated by context. However, we need a precise, concise and context-free language to help us abstract the nature. This language is called mathematics. We know that science is built on mathematics. But what is mathematics built on?
 The answer is reasoning system, which is created by Euclid. In such a system we could prove new propositions as theorems with axioms and some already proved propositions. These newly proved propositions are accumulated to enlarge our knowledge database. Like rolling a snowball, the mathematics system is set up and constructed layer upon layer.</p>
+
+<!--more-->
+
 
 <h2>2.Terminology</h2>
 

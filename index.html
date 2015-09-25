@@ -9,7 +9,7 @@
   <meta name="author" content="Xingcheng Huang">
 
   
-  <meta name="description" content="Explain everything in your own world before you formulate them with logics. 1.Introduction Human beings could only understand precise and unambiguous &hellip;">
+  <meta name="description" content="Explain everything in your own words before you formulate them with logics. 1.Introduction Human beings could only understand precise and unambiguous &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -87,117 +87,19 @@
   </header>
 
 
-  <div class="entry-content"><blockquote><p>Explain everything in your own world before you formulate them with logics.</p></blockquote>
+  <div class="entry-content"><blockquote><p>Explain everything in your own words before you formulate them with logics.</p></blockquote>
 
 <h2>1.Introduction</h2>
 
 <p>Human beings could only understand precise and unambiguous things. Nature languages like English have ambiguity, which could be eliminated by context. However, we need a precise, concise and context-free language to help us abstract the nature. This language is called mathematics. We know that science is built on mathematics. But what is mathematics built on?
 The answer is reasoning system, which is created by Euclid. In such a system we could prove new propositions as theorems with axioms and some already proved propositions. These newly proved propositions are accumulated to enlarge our knowledge database. Like rolling a snowball, the mathematics system is set up and constructed layer upon layer.</p>
 
-<h2>2.Terminology</h2>
-
-<ul>
-<li><strong>Proposition:</strong>  A statement that is either true or false.</li>
-<li><strong>Axioms:</strong> Propositions that has been assumed to be true, considered as foundation in this system.</li>
-<li><strong>Theorem:</strong> Important propositions.</li>
-<li><strong>Lemma:</strong> A preliminary proposition useful for proving later propositions.</li>
-<li><strong>Corollary:</strong> A proposition that follows in just a few logical steps from lemma or a theorem.</li>
-</ul>
-
-
-<blockquote><p>  Ps: Notice that Theorem, Lemma and Corollary have been proved, a proposition has been proved means that we can consider it as true from now on.</p></blockquote>
-
-<ul>
-<li><strong>Proof:</strong> A sequence of logical deductions from axioms and previously proved propositions that concludes with the proposition in question.</li>
-<li><strong>Predicate:</strong> A special proposition whose truth-value depends on its variables.</li>
-<li><strong>Quantifiers:</strong> Prefix phrases like “For all n”, “Exist an n” added before a basic predicate which indicates under which values this predicate is true.</li>
-</ul>
-
-
-<blockquote><p>  Ps: Computer program is consisted of statements, which could be assigned a value of true or false. These propositions are useful when you need to do some judgments in the program.</p></blockquote>
-
-<h2>3.Compound propositions</h2>
-
-<p>Notice we could construct compound propositions from the basic ones. This is a way of generative definition.</p>
-
-<ol>
-<li><strong>Basic step:</strong> Assume P and Q are propositions (We use variables to denote proposition, here we use principles of abstract to get rid of enormous realistic propositions) .</li>
-<li><strong>Generative Step:</strong> Then the following combinations are all propositions.
-
-<ul>
-<li>P AND Q</li>
-<li>P OR Q</li>
-<li>NOT P</li>
-<li>P XOR Q (XOR denotes exclusive-or, which means that you could not have both P and Q to be true at the same time)</li>
-<li>P IMPLIES Q (equals to IF P THEN Q)</li>
-<li>P IFF Q (indicates that P and Q are logically equivalent)</li>
-</ul>
-</li>
-</ol>
-
-
-<p>P and Q could either be true or false, these compound propositions’ truth-value depends on P’s and Q’s truth-value. (So if you want to know whether a compound proposition is true or false, you need to decompose it into basic propositions and ascertain each basic one’s truth-value.)</p>
-
-<h2>4.Predicates and Quantifiers</h2>
-
-<p>We usually use function-like notation to denote predicate likes P(n), which means that this proposition P’s truth-value depends on variable n.</p>
-
-<blockquote><p>  Ps: predicate notation P(n) is different with function notation P(n), the first one has T or F as return value however the last one has numbers as return value.</p></blockquote>
-
-<p>Most propositions we will consider in computer science are predicates, the truth-value of these predicates depend on their variables. It’s obvious that different values of these variables lead predicates to different situations.
-We have two typical situations:</p>
-
-<ol>
-<li>Always true, for all values of n in domain D, the predicate P(n) is true.</li>
-<li>Sometimes true, there exists such n in domain D, the predicate P(n) is true.</li>
-</ol>
-
-
-<p>We use quantifiers like “For all n”, “Exist an n” to quantify a predicate and the quantified predicates are also propositions.</p>
-
-<h2>5.Validity</h2>
-
-<p>A propositional formula is called valid when it evaluates to T no matter what truth-values are assigned to the individual propositional variables.</p>
-
-<blockquote><p>  Ex: The Distributive law, [P AND (Q OR R)] IFF [(P AND Q) OR (P AND R)] is true no matter what truth-value of P, R and Q is.</p></blockquote>
-
-<h2>6.Satisfiability</h2>
-
-<p>A proposition formula is satisfiable if some setting of the individual proposition makes the proposition true.</p>
-
-<blockquote><p>  Ps: The idea of validity and satisfiability is similar to the idea of always true and sometimes true of Predicates.</p></blockquote>
-
-<h2>7.Logical Deduction</h2>
-
-<p>Logical deduction should obey some rules. A simple rule is consisted of two parts, antecedents and consequents. When the antecedents are proved, we can consider the consequents to be true. The criteria of selecting rules are soundness, which means that any assignment of truth-values that makes all the antecedents true must also make the consequent true.</p>
-
-<p>A fundamental inference rule says that a proof of P with a proof of P IMPLIES Q is a proof of Q.</p>
-
-<h3>How to prove P?</h3>
-
-<ol>
-<li>If this is a complicated proof, we can break the proof into cases and prove each case separately.</li>
-<li>Prove by contradiction. Assume NOT(P) is true.</li>
-</ol>
-
-
-<h3>How to prove P IMPLIES Q?</h3>
-
-<ol>
-<li>Assume P is true, prove Q is true under condition P is true.</li>
-<li>Prove the contrapositive NOT(Q) IMPLIES NOT(P).</li>
-</ol>
-
-
-<h3>How to Prove P IFF Q?</h3>
-
-<ol>
-<li>Prove each statement implies the other.</li>
-<li>Construct a chain of IFFs.</li>
-</ol>
-
 </div>
   
+  
+    <footer>
+      <a rel="full-article" href="/blog/2015/09/25/how-to-set-up-a-mathematical-reasoning-system/">Read on &rarr;</a>
+    </footer>
   
 
 
