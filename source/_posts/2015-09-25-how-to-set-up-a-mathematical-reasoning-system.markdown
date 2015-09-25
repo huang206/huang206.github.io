@@ -11,6 +11,7 @@ categories: [math, reasoning]
 Human beings could only understand precise and unambiguous things. Nature languages like English have ambiguity, which could be eliminated by context. However, we need a precise, concise and context-free language to help us abstract the nature. This language is called mathematics. We know that science is built on mathematics. But what is mathematics built on?
 The answer is reasoning system, which is created by Euclid. In such a system we could prove new propositions as theorems with axioms and some already proved propositions. These newly proved propositions are accumulated to enlarge our knowledge database. Like rolling a snowball, the mathematics system is set up and constructed layer upon layer.
 
+<!--more-->
 ##2.Terminology
 *   **Proposition:**  A statement that is either true or false.
 *   **Axioms:** Propositions that has been assumed to be true, considered as foundation in this system.
