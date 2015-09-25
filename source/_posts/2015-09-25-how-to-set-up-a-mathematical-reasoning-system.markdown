@@ -5,7 +5,7 @@ date: 2015-09-25 10:15:40 -0700
 comments: true
 categories: [math, reasoning]
 ---
-> Explain everything in your own world before you formulate them with logics.
+> Explain everything in your own words before you formulate them with logics.
 
 ##1.Introduction
 Human beings could only understand precise and unambiguous things. Nature languages like English have ambiguity, which could be eliminated by context. However, we need a precise, concise and context-free language to help us abstract the nature. This language is called mathematics. We know that science is built on mathematics. But what is mathematics built on?
